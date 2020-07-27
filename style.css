@@ -101,3 +101,7 @@ header {
 .result-content ul li strong {
   color: #FF7373;
 }
+
+.form-group p {
+  color: #37474f;
+}
