@@ -57,8 +57,7 @@ header {
   transition: border-color 0.2s ease-in;
 }
 
-.form-group input:focus,
-.form-group select:focus {
+.form-group input:focus {
   border-color: #772ce8;
 }
 
