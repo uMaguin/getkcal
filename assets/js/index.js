@@ -41,8 +41,24 @@ function handleSubmit(event) {
       alert("Obesidade grau II " + imc + " kg/m²");
 
     } else if (imc >= 40.00) {
-      result.innerHTML = "Obesidade grau III (obesidade mórbida) " + imc + " kg/m²";
+      
     }
+
+    const layout = `
+      <h2>Aqui está o resultado:</h2>
+      <div class="result-content">
+        <ul>
+          <li>
+          Peso normal <strong>${imc}</strong>.
+          </li>
+        </ul>
+      </div>
+    `;
+
+    const result = document.getElementById('result');
+
+    result.innerHTML = layout;
+
   });
 }
 
