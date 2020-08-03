@@ -46,7 +46,7 @@ function handleSubmit(event) {
       <div class="result-content">
         <ul>
           <li>
-          Peso normal <strong>${imc}</strong>.
+          Peso normal <strong>${imc}</strong>
           </li>
         </ul>
       </div>
