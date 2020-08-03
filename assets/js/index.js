@@ -41,7 +41,7 @@ function handleSubmit(event) {
       alert("Obesidade grau II " + imc + " kg/m²");
 
     } else if (imc >= 40.00) {
-      alert("Obesidade grau III (obesidade mórbida) " + imc + " kg/m²");
+      result.innerHTML = "Obesidade grau III (obesidade mórbida) " + imc + " kg/m²";
     }
   });
 }

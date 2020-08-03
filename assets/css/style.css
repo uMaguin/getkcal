@@ -83,8 +83,10 @@ header {
   margin-top: 40px;
 }
 
-/*
+
 .result-container {
+  text-align: center;
+  align-items: center;
   margin-top: 50px;
 }
 
