@@ -12,8 +12,8 @@ body {
 
 body {
   background: #282828;
-  font-family: 'Roboto', sans-serif;
   color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -24,36 +24,47 @@ body {
 header {
   width: 100%;
   height: 150px;
+
   display: flex;
+
   align-items: center;
   justify-content: center;
 }
 
 .form-group {
   align-items: center;
+
   display: flex;
   flex-direction: column;
+
   margin-bottom: 20px;
 }
 
 .form-group label {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
+  
   margin-bottom: 5px;
 }
 
 .form-group input,
 .form-group select {
   text-align: center;
+
   background: #1A1A1A;
   width: 70%;
   height: 50px;
+
   border: 1.5px solid transparent;
   border-radius: 5px;
+
   font-family: 'Roboto', sans-serif;
+
   color: white;
+
   font-size: 14px;
   padding: 0 15px;
+
   outline: none;
   transition: border-color 0.2s ease-in;
 }
@@ -64,14 +75,21 @@ header {
 
 .form-group button {
   background-color: rgb(113, 89, 193);
+
   border-radius: 5px;
   border: 0;
   width: 70%;
   height: 45px;
+
   color: white;
   font-size: 16px;
+
   font-family: 'Roboto', sans-serif;
+
   cursor: pointer;
+
+  outline: none;
+
   transition: 0.2s;
 }
 
@@ -86,15 +104,20 @@ header {
 
 .result-container {
   text-align: center;
+
   align-items: center;
+
   margin-top: 50px;
 }
 
 .result-content {
   margin-top: 10px;
+
   border: 0.5px solid #772ce8;
   background: #1A1A1A;
+
   border-radius: 5px;
+
   padding: 15px;
 }
 
@@ -106,9 +129,14 @@ header {
   font-size: 14px;
   font-weight: bold;
   font-family: 'Montserrat Bold', sans-serif;
+
   line-height: 30px;
 }
 
 .result-content ul li strong {
-  color: #FF7373;;
+  color: #FF7373
 }
+
+/*
+  PESO NORMAL
+              */

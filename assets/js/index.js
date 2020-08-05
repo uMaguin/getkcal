@@ -29,7 +29,17 @@ function handleSubmit(event) {
       alert("Baixo peso " + imc + " kg/m²");
 
     } else if (imc >= 18.50 && imc <= 24.99) {
-      alert("Peso normal " + imc + " kg/m²");
+
+      layout = `
+      <h2>Aqui está o resultado:</h2>
+      <div class="result-content">
+        <ul>
+          <li>
+          Peso normal <strong>${imc}</strong>
+          </li>
+        </ul>
+      </div>
+    `;
 
     } else if (imc >= 25.00 && imc <= 29.99) {
       alert("Sobrepeso " + imc + " kg/m²");
@@ -41,16 +51,18 @@ function handleSubmit(event) {
       alert("Obesidade grau II " + imc + " kg/m²");
 
     } else if (imc >= 40.00) {
+
       layout = `
       <h2>Aqui está o resultado:</h2>
       <div class="result-content">
         <ul>
           <li>
-          Peso normal <strong>${imc}</strong>
+          Acima do peso <strong>${imc}</strong>
           </li>
         </ul>
       </div>
     `;
+
     }
 
     const result = document.getElementById('result');
