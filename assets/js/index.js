@@ -25,31 +25,31 @@ function handleSubmit(event) {
       <div class="result-content">
         <ul>
           <li>
-          peso está muito abaixo do ideal. <strong>${imc}</strong>
+          Peso muito abaixo do ideal. <strong>${imc}</strong>
           </li>
         </ul>
       </div>
     `;
 
-    } else if (imc >= 16 && imc <= 16.99) {
+    } else if (imc >= 17.5 && imc <= 18.49) {
       layout = `
       <h2>Aqui está o resultado:</h2>
       <div class="result-content">
         <ul>
           <li>
-          Acima do peso <strong>${imc}</strong>
+          Peso baixo do ideal <strong>${imc}</strong>
           </li>
         </ul>
       </div>
     `;
 
-    } else if (imc >= 17.00 && imc <= 18.49) {
+    } else if (imc >= 18.5 && imc <= 24.99) {
       layout = `
       <h2>Aqui está o resultado:</h2>
       <div class="result-content">
         <ul>
           <li>
-          Acima do peso <strong>${imc}</strong>
+          Peso está ideal <strong>${imc}</strong>
           </li>
         </ul>
       </div>
@@ -74,7 +74,7 @@ function handleSubmit(event) {
       <div class="result-content">
         <ul>
           <li>
-          Acima do peso <strong>${imc}</strong>
+          Peso acima do ideal <strong>${imc}</strong>
           </li>
         </ul>
       </div>
