@@ -19,13 +19,13 @@ function handleSubmit(event) {
 
     imc = (peso / Math.pow((altura / 100), 2)).toFixed(2);
 
-    if (imc < 16) {
+    if (imc < 17) {
       layout = `
       <h2>Aqui está o resultado:</h2>
       <div class="result-content">
         <ul>
           <li>
-          Acima do peso <strong>${imc}</strong>
+          peso está muito abaixo do ideal. <strong>${imc}</strong>
           </li>
         </ul>
       </div>
