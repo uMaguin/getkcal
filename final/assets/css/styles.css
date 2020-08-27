@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 *,
 html,
@@ -12,112 +12,78 @@ body {
 
 body {
   background: #282828;
+  font-family: 'Montserrat', sans-serif;
   color: white;
-  font-family: 'Roboto', sans-serif;
 }
 
 .container {
-  width: 500px;
+  width: 550px;
   margin: 0 auto;
 }
 
 header {
   width: 100%;
   height: 150px;
-
   display: flex;
-
   align-items: center;
   justify-content: center;
 }
 
 .form-group {
-  align-items: center;
-
   display: flex;
   flex-direction: column;
-
   margin-bottom: 20px;
 }
 
 .form-group label {
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
-  
+  font-family: 'Montserrat Semibold', sans-serif;
   margin-bottom: 5px;
 }
 
 .form-group input,
 .form-group select {
-  text-align: center;
-
   background: #1A1A1A;
-  width: 70%;
-  height: 50px;
-
-  border: 1.5px solid transparent;
+  width: 100%;
+  height: 45px;
+  border: 1px solid transparent;
   border-radius: 5px;
-
-  font-family: 'Roboto', sans-serif;
-
+  font-family: 'Montserrat', sans-serif;
   color: white;
-
   font-size: 14px;
   padding: 0 15px;
-
   outline: none;
   transition: border-color 0.2s ease-in;
 }
 
-.form-group input:focus {
-  border-color: #772ce8;
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #FF7373;
 }
 
 .form-group button {
-  background-color: rgb(113, 89, 193);
-
+  background-image: linear-gradient(-90deg, #FF7373 0%, #FDDB33 100%);
   border-radius: 5px;
   border: 0;
-  width: 70%;
   height: 45px;
-
-  color: white;
+  color: #1A1A1A;
   font-size: 16px;
-
-  font-family: 'Roboto', sans-serif;
-
+  font-family: 'Montserrat Bold', sans-serif;
   cursor: pointer;
-
-  outline: none;
-
-  transition: 0.2s;
-}
-
-.form-group button:hover {
-  background-color: #772ce8;
 }
 
 .form-group:last-child {
   margin-top: 40px;
 }
 
-
 .result-container {
-  text-align: center;
-
-  align-items: center;
-
   margin-top: 50px;
 }
 
 .result-content {
   margin-top: 10px;
-
-  border: 0.5px solid #772ce8;
   background: #1A1A1A;
-
   border-radius: 5px;
-
   padding: 15px;
 }
 
@@ -129,14 +95,9 @@ header {
   font-size: 14px;
   font-weight: bold;
   font-family: 'Montserrat Bold', sans-serif;
-
   line-height: 30px;
 }
 
 .result-content ul li strong {
-  color: #FF7373
+  color: #FF7373;
 }
-
-/*
-  PESO NORMAL
-              */
