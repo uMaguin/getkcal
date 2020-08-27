@@ -86,7 +86,7 @@ function handleSubmit(event) {
       <div class="result-content">
         <ul>
           <li>
-          Acima do peso <strong>${imc}</strong>
+          Obesidade grau I <strong>${imc}</strong>
           </li>
         </ul>
       </div>
@@ -98,7 +98,7 @@ function handleSubmit(event) {
       <div class="result-content">
         <ul>
           <li>
-          Acima do peso <strong>${imc}</strong>
+          Obesidade grau II (severa) <strong>${imc}</strong>
           </li>
         </ul>
       </div>
@@ -111,7 +111,7 @@ function handleSubmit(event) {
       <div class="result-content">
         <ul>
           <li>
-          Acima do peso <strong>${imc}</strong>
+          Obesidade grau III (mórbida) <strong>${imc}</strong>
           </li>
         </ul>
       </div>
