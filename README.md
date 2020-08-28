@@ -1,4 +1,3 @@
-<h1 align="center">getkcal</h1>
 <p align="center">
 <a href="https://rocketseat.com.br">
     <img alt="badge rocketseat" align="center" src="https://img.shields.io/youtube/views/yiDq9wUiUjc?style=social">
@@ -12,12 +11,9 @@ O <strong>getkcal</strong> é uma aplicação simples feita totalmente em JavaSc
 
 </p>
 
-
-## 🔖 Layout:
-
 ---
 
-<!-- <img src="./icones/gif.gif" align="center"></img> -->
+<img src="./github/projeto.png" align="center"></img>
 
 <!-- --- -->
 
