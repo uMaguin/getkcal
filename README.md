@@ -13,7 +13,7 @@ O <strong>getkcal</strong> é uma aplicação simples feita totalmente em JavaSc
 
 ---
 
-<img src="./finalprojeto.png" align="center"></img>
+<img src="/final/projeto.png" align="center"></img>
 
 <!-- --- -->
 
