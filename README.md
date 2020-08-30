@@ -13,7 +13,11 @@ O <strong>getkcal</strong> é uma aplicação simples feita totalmente em JavaSc
 
 ---
 
+<<<<<<< HEAD
 <img src="/images/projeto.png" align="center"></img>
+=======
+<img src="/final/projeto.png" align="center"></img>
+>>>>>>> c56db9bc4a3169aea01b3d80f10df15220b709f8
 
 ---
 
@@ -41,7 +45,10 @@ Para executá-la é muito simples, basta abrir o arquivo `index.html` em qualque
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+<<<<<<< HEAD
 
 ---
 
 Feito com 🖤 e muito ☕ by <a href="https://github.com/uMaguin">Rafael Henrique</a>
+=======
+>>>>>>> c56db9bc4a3169aea01b3d80f10df15220b709f8
