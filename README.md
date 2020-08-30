@@ -33,7 +33,7 @@ O projeto não necessita de nenhuma instalação.
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/uMaguin/getkcal.git
+git clone https://github.com/uMaguin/getkcal
 ```
 
 Para executá-la é muito simples, basta abrir o arquivo `index.html` em qualquer navegador.
