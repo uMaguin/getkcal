@@ -13,29 +13,35 @@ O <strong>getkcal</strong> é uma aplicação simples feita totalmente em JavaSc
 
 ---
 
-<img src="./finalprojeto.png" align="center"></img>
+<img src="/images/projeto.png" align="center"></img>
 
-<!-- --- -->
+---
+
+## 💻 Tecnologias utilizadas
+
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ul>
+
+---
 
 ## 🧭 Como rodar o projeto
 
+O projeto não necessita de nenhuma instalação.
+
 ```bash
 # Clonar o repositório
-git clone https://github.com/uMaguin/Next-Level-Week-2
-
-# Entrar no diretório
-cd Next-Level-Week-2
-
-# Baixar as dependências
-npm i
-
-# Executar o servidor
-npm run dev
+git clone https://github.com/uMaguin/getkcal.git
 ```
 
-Feito isso, abra o seu navegador e acesse `http://localhost:5500/`
-
+Para executá-la é muito simples, basta abrir o arquivo `index.html` em qualquer navegador.
 
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
+
+Feito com 🖤 e muito ☕ by <a href="https://github.com/uMaguin">Rafael Henrique</a>
