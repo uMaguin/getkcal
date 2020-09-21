@@ -5,7 +5,7 @@
 
 ---
 
-## 🔥 Sobre o projeto:
+## 🔥 Sobre o projeto
 
 O <strong>getkcal</strong> é uma aplicação simples feita totalmente em JavaScript puro, que se constitui uma calculadora de calorias no qual há métodos para calculo de metabolismo basal, mantimento de peso, perder peso e ganhar peso.
 
